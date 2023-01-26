@@ -1,9 +1,16 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: rgb(00,90,60);
-  font-family: #ffffff sans-serif;
+  background-color: #CEE3F6;
+  font: #ffffff sans-serif;
+  margin: 3%;
+  padding: 0;
 }
 section{
-  background-color: #f2f2ff;
+  background-color: #EEF1F3
+  padding: 1px;
+}
+#photo{
+  padding-left: 10%;
+ width: 30%; 
 }
