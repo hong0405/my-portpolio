@@ -1,36 +1,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #333333;
-  color: #ffffff;
-  margin: 5px;
-  padding: 5px;
-}
-h1{
-  text-align: center;
-}
-h2{
-  margin-bottom: 0;
-}
-textarea{
-  width: 50%;
-}
-.ongoing{
-  color: #adadfd;
-  margin-top: 1px;
-}
-nav{
-  border: darkgray solid 1px ;
-}
-a:visited, a:link{
-  color: #ffffff;
-  font-family: sans-serif;
-}
-a:hover, a:active{
-  color: orange;
+  background-color: rgb(00,90,60);
+  font-family: #ffffff sans-serif;
 }
 section{
-  margin-top: 5px;
-  margin-bottom: 0;
-}
+  background-color: #f2f2ff;
 }
