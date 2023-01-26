@@ -9,8 +9,12 @@ html, body {
 section{
   background-color: #EEF1F3
   padding: 1px;
+  border: solid 1px #222222;
 }
 #photo{
   padding-left: 10%;
  width: 30%; 
+}
+nav{
+  border: solid #000000 1px;
 }
