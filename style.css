@@ -1,15 +1,15 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #CEE3F6;
-  font: #ffffff sans-serif;
+  background-color: #0b3c6a;
+  font-family: #ffffff sans-serif;
+  color: #ffffff;
   margin: 3%;
   padding: 0;
 }
 section{
   background-color: #EEF1F3
   padding: 1px;
-  border: solid 1px #222222;
 }
 #photo{
   padding-left: 10%;
@@ -17,4 +17,16 @@ section{
 }
 nav{
   border: solid #000000 1px;
+}
+.division_line{
+  background-color: #ffffff;
+  border: dotted 1px deepgrey;
+  float: right;
+  width: 100%;
+  height: 3px;
+  vertical-align: bottom;
+}
+
+#myphoto{
+ display: inline-block; 
 }
