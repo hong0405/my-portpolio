@@ -16,7 +16,7 @@ section{
  width: 30%; 
 }
 nav{
-  border: solid #000000 1px;
+  border: solid #ffffff 1px;
 }
 .division_line{
   background-color: #ffffff;
@@ -27,6 +27,16 @@ nav{
   vertical-align: bottom;
 }
 
-#myphoto{
- display: inline-block; 
+#photo{
+ display: inline-block;
+ margin-left: -58px;
+}
+body>header>nav>ul>a:hover{
+  color: #ffffff;
+}
+a:link{
+  color: #ffa742;
+}
+#about>ul{
+  display: inline-block;
 }
