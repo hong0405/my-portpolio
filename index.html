@@ -3,9 +3,10 @@
 
 <head>
   <title>Teacher HONG's Portfolio</title>
-  <meta charset="Utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+</head>
 
 <body>
   <header>
@@ -19,45 +20,57 @@
     </nav>
   </header>
   <main>
-
     <section id="about">
-      <h2>About Me <div class="division_line">
-        </div>
-      </h2>
-      <div id="about_intro">
-        <img src="myphoto.png" alt="myphoto" id="photo" />
-        <span>
+      <h2>About Me</h2>
+      <hr>
+      <div id="about-intro">
+        <img src="myphoto.png" alt="My photo" id="photo">
+        <div>
           <ul>
-            <li><b><span style="margin-bottom: 10px;">소개</span></b><br>부산디지털고등학교 전기교과 교사 홍주현(현 소방안전과소속)입니다.</li>
-            <li><b>Why 코딩?</b><br>귀차니즘이 심해 불편한게 많아 코딩에 관심이 생긴 프로그래머 꿈나무</li>
-            <li><b>교직관</b><br> 저는 잘 가르치는 것보다 제가 더 배우고 조금 멋져져서 학생들이 저를 따라하게 하고 싶어요. 그래서 이런 사이트를 만들었어요.</li>
+            <li>
+              <strong>Introduction:</strong><br>
+              I am Teacher HONG Ju-hyun, a teacher at Busan Digital High School, affiliated with the Fire and Safety Division.
+            </li>
+            <li>
+              <strong>Why coding:</strong><br>
+              I have an interest in coding due to my tendency to procrastinate and my discomfort with various things. I am a beginner programmer who dreams of coding.
+            </li>
+            <li>
+              <strong>Teaching philosophy:</strong><br>
+              I would like to teach my students by making them follow me, who becomes cooler by learning, rather than just teaching well. That's why I created this site.
+            </li>
           </ul>
-        </span>
+        </div>
       </div>
-
     </section>
     <section id="projects">
-      <h2>My Projects<div class="division_line">
-        </div>
-      </h2>
+      <h2>My Projects</h2>
+      <hr>
       <ul>
-        <li>한글 메일머지 기능 활용한 결석계 자동화 파일 배포</li>
-        <li>파이썬을 통한 코로나 학생 자가진단 자동 점검 프로그램 제작</li>
-        <li>구글 시트 통한 후쿠오카 맛집어플리케이션만들기</li>
+        <li>Automated absence management file distribution using a Korean mail merge function</li>
+        <li>Creation of a program to automatically check student self-diagnosis of COVID-19 using Python</li>
+        <li>Creating a Fukuoka restaurant application using Google Sheets</li>
       </ul>
     </section>
     <section id="contact">
-      <h2>Contact Me<div class="division_line">
-        </div>
-      </h2>
+      <h2>Contact Me</h2>
+      <hr>
       <form action="submit-form.php" method="post">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br>
-        <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea><br>
-        <input type="submit" value="Submit">
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Submit">
+        </div>
       </form>
     </section>
   </main>
