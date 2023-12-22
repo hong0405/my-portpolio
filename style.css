@@ -37,6 +37,35 @@ body>header>nav>ul>a:hover{
 a:link{
   color: #ffa742;
 }
+a:link { color:pink; }
+a:visited { color:white; }
+a:hover { color:yellow; }
+a:active { color:lightyellow; }
 #about>ul{
   display: inline-block;
+}
+ul{
+ padding-left: 0;
+ margin-left: 0;
+}
+
+/* 기본 링크 스타일 */
+a {
+    text-decoration: none; /* 밑줄 제거 */
+    color: #333; /* 링크 텍스트 색상 */
+}
+
+/* 호버 상태일 때의 스타일 */
+a:hover {
+    color: #ffe175; /* 호버 상태일 때의 링크 텍스트 색상 변경 */
+}
+
+/* 툴팁 스타일 */
+.tooltip {
+  position: absolute;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1;
 }
