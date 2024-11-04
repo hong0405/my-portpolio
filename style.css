@@ -1,9 +1,11 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-color: #0b3c6a;
-  font-family: #ffffff sans-serif;
-  color: #ffffff;
+  background-image: url('v915-techi-011.jpg'); /* Use url() to reference the image */
+  background-size: cover; /* Makes the image cover the whole background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  font-family: sans-serif; /* Remove #ffffff as it's not valid for font-family */
+  color: #000000;
   margin: 3%;
   padding: 0;
 }
@@ -37,8 +39,8 @@ body>header>nav>ul>a:hover{
 a:link{
   color: #ffa742;
 }
-a:link { color:pink; }
-a:visited { color:white; }
+a:link { color:#0011ff; }
+a:visited { color:white;font-style: bold; }
 a:hover { color:yellow; }
 a:active { color:lightyellow; }
 #about>ul{
